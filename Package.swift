@@ -4,7 +4,7 @@ import PackageDescription
 
 /// Годы, для которых есть решения. Новый год: добавить сюда и создать
 /// `Sources/AoC<год>` и `Tests/AoC<год>Tests` (это делает `./new-day.sh`).
-let years = [2022, 2023, 2024]
+let years = [2022, 2023, 2024, 2025]
 
 let libraries: [Target.Dependency] = [
     .product(name: "Collections", package: "swift-collections"),
@@ -13,7 +13,7 @@ let libraries: [Target.Dependency] = [
 
 let package = Package(
     name: "advent-of-code",
-    platforms: [.macOS(.v14)],
+    platforms: [.macOS(.v15)],
     dependencies: [
         .package(url: "https://github.com/apple/swift-collections.git", from: "1.1.4"),
         .package(url: "https://github.com/apple/swift-algorithms.git", from: "1.2.0"),
