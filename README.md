@@ -15,8 +15,6 @@ Inputs/          2024/day16.txt, ... (в .gitignore)
 Templates/       шаблоны для new-day.sh
 ```
 
-Решения 2023–2025 перенесены из playground'ов репозитория `algorithms-and-structures`: логика та же, ответы в тестах совпадают с тем, что выдавали playground'ы. Нерешённые части помечены `@Test(.disabled("…"))` с причиной.
-
 ## Новый день
 
 ```sh
